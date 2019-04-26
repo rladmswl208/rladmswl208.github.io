@@ -1,0 +1,106 @@
+#wrap{
+    background-color: #fff;
+    text-align: center;
+}
+#wrap #footer{background-color:#feb179;}
+@font-face {
+    font-family: 'NanumGothic';
+    src: url(NanumFont_TTF_ALL/NanumGothic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url(NanumFont_TTF_ALL/NanumGothicBlod.ttf) format('truetype');
+}
+@font-face {
+    font-family:'sleeping';
+    src: url(Sleeping.ttf) format('truetype');
+}
+.clear{
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+#logo{
+    float: left;
+    display: inline;
+    margin:0;
+    width: 80px;
+    margin-right: 140px;
+}
+nav{
+    background-color: #fff;
+    padding: 0;
+}
+#navi{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    font-family: sleeping;
+}
+#navi li{
+    float: left;
+    display: inline;
+    margin: 10px 30px 0px 90px;
+}
+#navi li a{
+    text-align: center;
+    text-decoration: none;
+    color: #353a24;
+}
+#navi li a:hover{
+    color: #ee6346;
+}
+#imgswap img:last-child{display:none}
+#imgswap:hover img:first-child{display:none}
+#imgswap:hover img:last-child{display:inline-block}
+#content h1{
+    font-family: sleeping;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #9da04f;
+}
+#content h3{
+    font-family: NanumGothicBlod;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #353a24;
+}
+#content p{
+    font-family: NanumGothic;
+    line-height: 1.8em;
+}
+#imgswap2{
+    display: inline;
+}
+#imgswap2 img:last-child{display:none}
+#imgswap2:hover img:first-child{display:none}
+#imgswap2:hover img:last-child{display:inline-block}
+
+#reco img{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#recom p{
+    display: inline;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+#rest h4{
+    font-family: NanumGothicBold;
+}
+#rest h4 p{
+    float: left;
+    text-align: left;
+    display: inline;
+}
+#footer h3{
+    font-family: NanumGothic;
+    font-size: 10px;
+    margin-top: 100px;
+}
+#top_div{
+   	position: fixed;
+   	bottom: 50px;
+}
